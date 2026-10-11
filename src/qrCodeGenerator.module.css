@@ -94,6 +94,7 @@
 
 @media (max-width: 480px) {
   :global(body) {
+    place-items: start center;
     padding: max(12px, env(safe-area-inset-top)) max(12px, env(safe-area-inset-right)) max(12px, env(safe-area-inset-bottom)) max(12px, env(safe-area-inset-left));
   }
 
