@@ -1,11 +1,11 @@
 .scannerView {
-  width: 100%;
+  width: min(350px, calc(100% - 24px));
   margin-inline: auto;
   overflow: hidden;
   display: flex;
   flex-direction: column;
   align-items: center;
-  max-width: min(350px, 100%);
+  max-width: 350px;
   justify-content: center;
   border-radius: 14px;
 }
