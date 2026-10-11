@@ -1,0 +1,37 @@
+.appShell {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+:global(.mode-switch) {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 4px;
+  padding: 4px;
+  border: 1px solid #333333;
+  border-radius: 12px;
+  background: #242424;
+}
+
+.modeButton {
+  margin: 0;
+  padding: 10px 12px;
+  border: 0;
+  border-radius: 8px;
+  background: transparent;
+  color: #b5b5b5;
+  font-size: 14px;
+  box-shadow: none;
+  transform: none;
+}
+
+.modeButton:hover,
+.active {
+  background: #ffffff;
+  color: #000000;
+}
+
+.modeButton:hover {
+  transform: none;
+}

@@ -1,0 +1,42 @@
+.scannerView {
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 14px;
+}
+
+.scannerView video {
+  display: block;
+  width: 100%;
+  max-width: 350px;
+  aspect-ratio: 1;
+  object-fit: cover;
+}
+
+.scannerResult {
+  display: block;
+  overflow: hidden;
+  margin-top: 18px;
+  padding: 12px 14px;
+  border: 1px solid #505050;
+  border-radius: 10px;
+  background: #242424;
+  color: #dddddd;
+  font-size: 14px;
+  line-height: 1.4;
+  text-decoration: none;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  transition: border-color 0.2s, background 0.2s;
+}
+
+.scannerResult:empty {
+  display: none;
+}
+
+.scannerResult:hover {
+  border-color: #bdbdbd;
+  background: #333333;
+}
